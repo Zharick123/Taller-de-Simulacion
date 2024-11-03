@@ -10,7 +10,7 @@ const ApiResults = () => {
     const fetchExperiments = async () => {
       setLoading(true);
       try {
-        const response = await fetch('https://api-ejemplo.com/lilo-stitch-characters', {
+        const response = await fetch('https://api.disneyapi.dev/character', {
           headers: {
             Authorization: `Bearer YOUR_API_TOKEN_HERE`
           }
